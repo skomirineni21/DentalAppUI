@@ -1,0 +1,32 @@
+@import "../../Sass/variables";
+@import "../../Sass/mixins";
+.ads {
+  height: 120px;
+  margin-top: 20px;
+  background: #f0f6fb;
+  .container {
+    height: 100%;
+    .row {
+      height: 100%;
+      .col-md-12 {
+        height: 100%;
+        @include flex();
+        h2 {
+          margin-bottom: 0;
+          color: $main;
+          font-family: Helvetica;
+          font-size: 25px;
+          font-weight: 500;
+          a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 700;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

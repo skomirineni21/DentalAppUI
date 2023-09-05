@@ -1,0 +1,21 @@
+@import "../Sass/variables";
+@import "../Sass/mixins";
+.navigation {
+  height: 150px;
+  background: $main;
+  width: 100%;
+  @include flex;
+  flex-direction: column;
+  h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 29px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "commentTitle": "Lorem Ipsum is simply dummy text",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.",
+        "commentImg": "Images/commenter.png",
+        "commenterName": "Jane Cooper",
+        "commenterJob": "CEO at ABC Corporation"
+    },
+    {
+        "id": 2,
+        "commentTitle": "Lorem Ipsum is simply dummy text",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.",
+        "commentImg": "Images/commenter.png",
+        "commenterName": "Jane Cooper",
+        "commenterJob": "CEO at ABC Corporation"
+    },
+    {
+        "id": 3,
+        "commentTitle": "Lorem Ipsum is simply dummy text",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.",
+        "commentImg": "Images/commenter.png",
+        "commenterName": "Jane Cooper",
+        "commenterJob": "CEO at ABC Corporation"
+    }
+]
