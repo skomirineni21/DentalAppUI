@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faInstagram,
-  faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import "./Navbar.scss";
@@ -79,15 +78,19 @@ const Navbar = () => {
               onClick={() => setShow((prev) => !prev)}
             />
           </Col>
-          <Col md="5" className="socials" sm="12" xs="12"
-          style={{
-              top: show ? "228px" : "-100%" 
-          }}
+          <Col
+            md="5"
+            className="socials"
+            sm="12"
+            xs="12"
+            style={{
+              top: show ? "228px" : "-100%",
+            }}
           >
             <ul className="list-inline">
               <li className="list-inline-item">
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/drnaveens_dental"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -95,15 +98,19 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://facebook.com/drnaveensdental"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
               </li>
-              <li className="list-inline-item">
+              {/* <li className="list-inline-item">
                 <a href="https://twitter.com" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
-              </li>
+              </li> */}
               <li className="list-inline-item">
                 <a href="https://youtube.com" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={faYoutube} />

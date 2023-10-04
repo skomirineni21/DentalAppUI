@@ -1,10 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faStreetView,
-  faPhoneVolume,
-} from "@fortawesome/free-solid-svg-icons";
+import { faStreetView, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import "./Info.scss";
 
@@ -15,26 +12,33 @@ const Info = () => {
         <Row>
           <Col md="12">
             <div className="info-child">
-              <FontAwesomeIcon icon={faStreetView} className="info-child__icon" />
+              <FontAwesomeIcon
+                icon={faStreetView}
+                className="info-child__icon"
+              />
               <h3 className="info-child__title">Address</h3>
               <div className="info-child__content">
-                <p>A-655 Karol bagh, Near Delhi 93 – Map</p>
+                <p>11-86/1, 1st floor, Opp: ICICI Bank</p>
+                <p>Alwal, Secunderabad, Telanaga</p>
               </div>
             </div>
             <div className="info-child">
-              <FontAwesomeIcon icon={faPhoneVolume} className="info-child__icon" />
+              <FontAwesomeIcon
+                icon={faPhoneVolume}
+                className="info-child__icon"
+              />
               <h3 className="info-child__title">Contact Info</h3>
               <div className="info-child__content">
-                <p>Email : techwero@gmail.com</p>
-                <p>Phone : +61 3 8376 6284</p>
+                <p>Email : TEST@gmail.com</p>
+                <p>Phone : +91-8790297437</p>
               </div>
             </div>
             <div className="info-child">
               <FontAwesomeIcon icon={faClock} className="info-child__icon" />
               <h3 className="info-child__title">Open Hour</h3>
               <div className="info-child__content">
-                <p>Monday – Friday : 09:00 – 20:00</p>
-                <p>Sunday & Saturday: 10:30 – 22:00</p>
+                <p>Monday to Saturday : 10:00 AM – 8:00 PM</p>
+                <p>Sundays on appointment</p>
               </div>
             </div>
           </Col>

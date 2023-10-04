@@ -10,8 +10,8 @@ import Blog from "./Blog/Blog";
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Dental App";
-  }, [])
+    document.title = "Naveen's Dental Clinic";
+  }, []);
   return (
     <div>
       <Header />

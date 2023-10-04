@@ -2,7 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Logo from "../../Main_images/logo2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faTwitter, faGoogle, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebookF,
+  faGoogle,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import "./Footer.scss";
 
 function Footer() {
@@ -25,11 +30,13 @@ function Footer() {
             <ul className="list-unstyled">
               <li>
                 <p>Bussines hours:</p>
-                <p>Monday to Saturday 9:30 am - 4:30 pm</p>
+                <p>Monday to Saturday : 10:00 AM – 8:00 PM</p>
+                <p>Sundays on appointment</p>
               </li>
               <li>
                 <p>Address:</p>
-                <p>A-67 south Ex Delhi-11002</p>
+                <p>11-86/1, 1st floor, Opp: ICICI Bank</p>
+                <p>Alwal, Secunderabad, Telanaga</p>
               </li>
               <li>
                 <p>Email:</p>
@@ -42,21 +49,59 @@ function Footer() {
             </ul>
           </Col>
           <Col md="3" className="third">
-              <h4>Stay Connected</h4>
-              <ul className="list-unstyled">
-                  <li><FontAwesomeIcon icon={faFacebookF} /> <a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
-                  <li><FontAwesomeIcon icon={faTwitter} /> <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a></li>
-                  <li><FontAwesomeIcon icon={faGoogle} /> <a href="https://google.com" target="_blank" rel="noreferrer">Google</a></li>
-                  <li><FontAwesomeIcon icon={faInstagram} /> <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
-                  <li><FontAwesomeIcon icon={faYoutube} /> <a href="https://youtube.com" target="_blank" rel="noreferrer">Youtube</a></li>
-              </ul>
+            <h4>Stay Connected</h4>
+            <ul className="list-unstyled">
+              <li>
+                <FontAwesomeIcon icon={faFacebookF} />{" "}
+                <a
+                  href="https://facebook.com/drnaveensdental"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Facebook
+                </a>
+              </li>
+              {/* <li>
+                <FontAwesomeIcon icon={faTwitter} />{" "}
+                <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                  Twitter
+                </a>
+              </li> */}
+              <li>
+                <FontAwesomeIcon icon={faGoogle} />{" "}
+                <a href="https://google.com" target="_blank" rel="noreferrer">
+                  Google
+                </a>
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faInstagram} />{" "}
+                <a
+                  href="https://instagram.com/drnaveens_dental"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faYoutube} />{" "}
+                <a href="https://youtube.com" target="_blank" rel="noreferrer">
+                  Youtube
+                </a>
+              </li>
+            </ul>
           </Col>
           <Col md="3" className="fourth">
             <h4>Newsletter</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
             <div className="email-form">
-                <input type="email" placeholder="Enter Email ID" name="email"/>
-                <button type="submit" id="email">Subscribe</button>
+              <input type="email" placeholder="Enter Email ID" name="email" />
+              <button type="submit" id="email">
+                Subscribe
+              </button>
             </div>
           </Col>
         </Row>
