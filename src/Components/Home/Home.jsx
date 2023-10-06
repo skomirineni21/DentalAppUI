@@ -5,8 +5,8 @@ import Cards from "./Cards/Cards";
 import Recomedded from "./Recomedded/Recomedded";
 import Services from "./Services/Services";
 import Doctors from "./Doctors/Doctors";
-import Comments from "./Comments/Comments";
-import Blog from "./Blog/Blog";
+//import Comments from "./Comments/Comments";
+//import Blog from "./Blog/Blog";
 
 const Home = () => {
   useEffect(() => {
@@ -20,8 +20,8 @@ const Home = () => {
       <Recomedded />
       <Services />
       <Doctors />
-      <Comments />
-      <Blog />
+      {/*<Comments />*/}
+      {/*<Blog />*/}
     </div>
   );
 };

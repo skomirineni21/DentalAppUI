@@ -36,6 +36,16 @@ const Navbar = () => {
     >
       <Container>
         <Row>
+          <Col md="2" className="logo" sm="12" xs="12">
+            <Link to="/">
+              <img src={Logo} alt="Dr. Naveen's Dental Clinic" />
+            </Link>
+            <FontAwesomeIcon
+              icon={faBars}
+              className="bar"
+              onClick={() => setShow((prev) => !prev)}
+            />
+          </Col>
           <Col
             md="5"
             className="nav"
@@ -68,7 +78,7 @@ const Navbar = () => {
               </li>
             </ul>
           </Col>
-          <Col md="2" className="logo" sm="12" xs="12">
+          {/*<Col md="2" className="logo" sm="12" xs="12">
             <Link to="/">
               <img src={Logo} alt="LogoIpsum" />
             </Link>
@@ -77,7 +87,7 @@ const Navbar = () => {
               className="bar"
               onClick={() => setShow((prev) => !prev)}
             />
-          </Col>
+          </Col>*/}
           <Col
             md="5"
             className="socials"

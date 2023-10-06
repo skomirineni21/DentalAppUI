@@ -8,7 +8,7 @@ const Ads = () => {
             <Container>
                 <Row>
                     <Col md="12" xl="12" xs="12">
-                        <h2>Get in touch with us today <a href="tel:+0299554239">(02) 9955 4239</a></h2>
+                        <h2>Get in touch with us today <a href="tel:+918790297437">+91 8790 297 437</a></h2>
                     </Col>
                 </Row>
             </Container>    

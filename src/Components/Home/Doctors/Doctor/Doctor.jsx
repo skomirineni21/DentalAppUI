@@ -8,7 +8,7 @@ import "./Doctor.scss";
 
 function Doctor({ src, name, position }) {
     return (
-        <Col md="3" className="doctor-card">
+        <Col md="6" className="doctor-card">
             <LazyLoadImage 
             src={src}
             alt="doctor"
