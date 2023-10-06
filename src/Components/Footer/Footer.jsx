@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import Logo from "../../Main_images/logo2.png";
+import Logo from "../../Main_images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
-  faGoogle,
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
@@ -66,13 +65,13 @@ function Footer() {
                 <a href="https://twitter.com" target="_blank" rel="noreferrer">
                   Twitter
                 </a>
-              </li> */}
+              </li> 
               <li>
                 <FontAwesomeIcon icon={faGoogle} />{" "}
                 <a href="https://google.com" target="_blank" rel="noreferrer">
                   Google
                 </a>
-              </li>
+              </li> */}
               <li>
                 <FontAwesomeIcon icon={faInstagram} />{" "}
                 <a

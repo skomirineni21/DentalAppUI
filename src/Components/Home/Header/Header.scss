@@ -22,10 +22,11 @@
           text-decoration: none;
         }
         &__p1 {
-          font-size: 25px;
+          font-size: 28px;
           color: $main;
           margin-bottom: 10px;
-          font-weight: 400;
+          font-weight: 500;
+          font-style: 'italic';
         }
         &__text {
           font-size: 40px;
@@ -37,6 +38,13 @@
           font-weight: 400;
           margin-bottom: 20px;
         }
+        &__p3 {
+          font-size: 20px;
+          font-weight: 600;
+          color: #557054;
+          margin-bottom: 10px;
+          font-style: italic;
+        }
       }
       &__img {
         display: flex;
@@ -47,7 +55,7 @@
       }
     }
   }
-  &::before {
+  /* &::before {
     content: "";
     width: 740px;
     height: 740px;
@@ -56,5 +64,5 @@
     top: -200px;
     background: $main;
     border-radius: 50%;
-  }
+  } */
 }
