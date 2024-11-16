@@ -7,6 +7,7 @@ import Services from "./Services/Services";
 import Doctors from "./Doctors/Doctors";
 import Comments from "./Comments/Comments";
 import Blog from "./Blog/Blog";
+import ImageHeader from "./ImageHeader/ImageHeader";
 
 const Home = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const Home = () => {
   }, []);
   return (
     <div>
+      <ImageHeader />
       <Header />
       <Ads />
       <Cards />
